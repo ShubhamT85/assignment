@@ -97,8 +97,8 @@ $Fname = $Lname = $Email = $Contact = $Age = $Password = $ConfirmPassword = $Pim
 
 
     $servername = "localhost";
-    $username = "padmin";
-    $password = "admin";
+    $username = "root";
+    $password = "";
     $dbname = "GitAssignmentDatabase";
 
     // Create connection
@@ -157,8 +157,8 @@ function test_input($data) {
 
 <?php
 $servername = "localhost";
-$username = "padmin";
-$password = "admin";
+$username = "root";
+$password = "";
 $dbname = "GitAssignmentDatabase";
 
 // Create connection
@@ -274,8 +274,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 $servername = "localhost";
-    $username = "padmin";
-    $password = "admin";
+    $username = "root";
+    $password = "";
     $dbname = "GitAssignmentDatabase";
 
     // Create connection

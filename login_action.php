@@ -2,8 +2,8 @@
 // Start the session
 session_start();
     $servername = "localhost";
-    $username = "padmin";
-    $password = "admin";
+    $username = "root";
+    $password = "";
     $dbname = "GitAssignmentDatabase";
 
     // Create connection
